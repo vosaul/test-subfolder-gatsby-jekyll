@@ -5,6 +5,6 @@
   publish = "public"
 
 ## more info https://www.netlify.com/docs/netlify-toml-reference/
-#[[redirects]]
-#from = "https://test-sub.netlify.app/"
-#to = "https://test-sub.netlify.app/test/"
+[[redirects]]
+from = "https://test-sub.netlify.app/"
+to = "https://test-sub.netlify.app/test/"
