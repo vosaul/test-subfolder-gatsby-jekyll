@@ -1,8 +1,8 @@
 # example netlify.toml
-[build]
-  command = "yarn run build && mv public _site_tmp && mkdir public && mv _site_tmp public/test && mv public/test/netlify.toml public/netlify.toml"
-  functions = "functions"
-  publish = "public"
+#[build]
+#  command = "yarn run build && mv public _site_tmp && mkdir public && mv _site_tmp public/test && mv public/test/netlify.toml public/netlify.toml"
+#  functions = "functions"
+#  publish = "public"
 
 ## more info https://www.netlify.com/docs/netlify-toml-reference/
 [[redirects]]
